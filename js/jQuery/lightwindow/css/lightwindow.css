@@ -1,0 +1,7 @@
+* { margin:0; padding:0;  }
+.lightwindow-overbody {
+	background: url(../img/transbg.png) repeat; position:fixed; top:0; left:0; z-index:20000;
+}
+.lightwindow-window {
+	background: #fff; position:fixed; z-index:20001; width:0; height:0; 
+}
