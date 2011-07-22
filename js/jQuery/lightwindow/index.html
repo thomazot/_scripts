@@ -7,9 +7,11 @@
 		<script type="text/javascript" src="../jquery-1.5.2.min.js" charset="utf-8"></script>
 		<script type="text/javascript" src="jquery.lightwindow.js" charset="utf-8"></script>
 		<script type="text/javascript" charset="utf-8">
+			var lightwindow;
 			$(document).ready(function(){
-				$('#lightwindow').lightwindow({ speedyOpen: 'slow' });
+				lightwindow = $('#lightwindow').lightwindow({ speedyOpen: 'slow' });
 			});
+			function teste() { alert('teste'); }
 		</script>
 		<link rel="stylesheet" href="css/lightwindow.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	</head>
